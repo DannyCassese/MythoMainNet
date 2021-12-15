@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   background: rgb(131,58,180);
-  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5f84e8e725aed70706e46495/ece8441d-14a2-43e2-8c46-c7b9258c87db/DCDAFDF8-B00C-4C7B-B6BF-0D9D5CB0EFE7.jpg?format=1500w");
   color: white;
 }
 .box {
