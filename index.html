@@ -24,12 +24,12 @@
   </table>
 </script>
 <script>
-  <connectbutton class= "connectbutton"> Connect Wallet! </connectbutton>
+  <button class= "connectbutton"> Connect Wallet! </button>
   
   const web3 = new Web3(window.ethereum);
 const address = contract 0xFFE0498c26a8386338c46A8325f9d3562f90Ad0e;
 
-document.querySelector(connectbutton).addEventListener('click', async () => {
+document.querySelector(button).addEventListener('click', async () => {
   try {
     await f0.init({
       web3: web3,
