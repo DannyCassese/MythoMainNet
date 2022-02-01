@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   background: rgb(131,58,180);
-  background-image: url("https://images.squarespace-cdn.com/content/v1/5f84e8e725aed70706e46495/ece8441d-14a2-43e2-8c46-c7b9258c87db/DCDAFDF8-B00C-4C7B-B6BF-0D9D5CB0EFE7.jpg?format=1500w");
+  background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   color: white;
 }
 .box {
@@ -14,10 +14,26 @@ body {
 }
 
 .button {
-  background-color: white;
-  text-align: center; 
-  padding: 15px 32px;
-  font-size: 16px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .box > *, .minter > *{
   display: block;
